@@ -1,3 +1,13 @@
+# Question 1
+
+# Write a PowerShell script to scan the C:\Logs directory recursively and display all files that:
+
+# • are larger than 2 MB, and
+# • were modified in the last 15 days.
+
+# Display the output in table format showing file name, file size (in MB), and last modified date.
+
+# $path = "C:\AutomationLab\Logs"
 $path = "C:\Windows\Temp"
 $thresholdSizeMB = 2
 $daysThreshold = 15
